@@ -1,0 +1,201 @@
+product_id,product_name,category,price,stock
+P0001,Laptop 1,Electronics,33943.07,316
+P0002,Laptop 2,Electronics,33050.72,202
+P0003,Laptop 3,Electronics,85393.26,61
+P0004,Laptop 4,Electronics,8668.44,417
+P0005,Laptop 5,Electronics,73874.31,86
+P0006,Laptop 6,Electronics,54266.86,262
+P0007,Smartphone 1,Electronics,93470.24,416
+P0008,Smartphone 2,Electronics,80905.8,341
+P0009,Smartphone 3,Electronics,15612.82,36
+P0010,Smartphone 4,Electronics,707.68,100
+P0011,Smartphone 5,Electronics,3752.12,159
+P0012,Tablet 1,Electronics,68034.6,480
+P0013,Tablet 2,Electronics,82762.36,192
+P0014,Tablet 3,Electronics,66772.79,54
+P0015,Tablet 4,Electronics,4522.77,467
+P0016,Tablet 5,Electronics,31321.86,61
+P0017,Tablet 6,Electronics,4374.75,308
+P0018,Tablet 7,Electronics,8693.41,30
+P0019,Headphones 1,Electronics,521.2,482
+P0020,Headphones 2,Electronics,19628.69,97
+P0021,Headphones 3,Electronics,89757.09,431
+P0022,Headphones 4,Electronics,99351.37,65
+P0023,Headphones 5,Electronics,27099.36,159
+P0024,Headphones 6,Electronics,61735.79,279
+P0025,Headphones 7,Electronics,7632.49,323
+P0026,Headphones 8,Electronics,28802.26,43
+P0027,Headphones 9,Electronics,46502.49,446
+P0028,Keyboard 1,Electronics,16160.71,407
+P0029,Keyboard 2,Electronics,70144.3,59
+P0030,Keyboard 3,Electronics,49893.34,124
+P0031,Keyboard 4,Electronics,69058.69,26
+P0032,Keyboard 5,Electronics,39642.65,183
+P0033,Keyboard 6,Electronics,66668.35,365
+P0034,Keyboard 7,Electronics,47529.7,241
+P0035,Mouse 1,Electronics,95194.61,166
+P0036,Mouse 2,Electronics,29718.5,371
+P0037,Mouse 3,Electronics,81556.48,224
+P0038,Mouse 4,Electronics,80793.1,130
+P0039,Mouse 5,Electronics,79528.62,443
+P0040,Mouse 6,Electronics,31277.95,177
+P0041,Mouse 7,Electronics,21449.45,246
+P0042,Monitor 1,Electronics,70471.84,28
+P0043,Monitor 2,Electronics,8405.59,310
+P0044,Monitor 3,Electronics,87576.59,85
+P0045,Monitor 4,Electronics,11213.61,239
+P0046,Monitor 5,Electronics,13047.92,380
+P0047,Monitor 6,Electronics,7807.49,404
+P0048,Smartwatch 1,Electronics,68928.72,306
+P0049,Smartwatch 2,Electronics,24305.78,256
+P0050,Smartwatch 3,Electronics,43815.82,72
+P0051,Smartwatch 4,Electronics,93022.39,352
+P0052,Smartwatch 5,Electronics,94286.58,292
+P0053,Smartwatch 6,Electronics,73073.36,164
+P0054,Smartwatch 7,Electronics,93774.9,117
+P0055,T-Shirt 1,Fashion,65790.08,196
+P0056,T-Shirt 2,Fashion,16074.83,108
+P0057,T-Shirt 3,Fashion,34836.02,35
+P0058,T-Shirt 4,Fashion,3622.26,446
+P0059,T-Shirt 5,Fashion,80460.92,209
+P0060,T-Shirt 6,Fashion,19062.97,264
+P0061,T-Shirt 7,Fashion,46618.64,213
+P0062,T-Shirt 8,Fashion,78480.62,451
+P0063,Jeans 1,Fashion,45236.42,427
+P0064,Jeans 2,Fashion,33027.36,372
+P0065,Jeans 3,Fashion,42523.67,171
+P0066,Jeans 4,Fashion,95827.48,394
+P0067,Jeans 5,Fashion,56873.59,368
+P0068,Jeans 6,Fashion,18804.21,455
+P0069,Jeans 7,Fashion,78429.06,498
+P0070,Shoes 1,Fashion,41872.2,259
+P0071,Shoes 2,Fashion,87614.34,181
+P0072,Shoes 3,Fashion,15242.69,462
+P0073,Shoes 4,Fashion,14463.93,272
+P0074,Shoes 5,Fashion,60590.22,500
+P0075,Shoes 6,Fashion,28147.3,113
+P0076,Shoes 7,Fashion,72218.05,223
+P0077,Jacket 1,Fashion,77200.56,333
+P0078,Jacket 2,Fashion,36392.39,185
+P0079,Jacket 3,Fashion,80120.76,200
+P0080,Jacket 4,Fashion,34049.39,63
+P0081,Jacket 5,Fashion,48538.44,432
+P0082,Backpack 1,Fashion,20570.47,85
+P0083,Backpack 2,Fashion,33585.53,347
+P0084,Backpack 3,Fashion,85848.52,390
+P0085,Backpack 4,Fashion,50745.62,281
+P0086,Backpack 5,Fashion,39373.67,280
+P0087,Backpack 6,Fashion,99366.29,323
+P0088,Backpack 7,Fashion,92694.53,110
+P0089,Backpack 8,Fashion,43776.3,496
+P0090,Backpack 9,Fashion,73261.47,30
+P0091,Sunglasses 1,Fashion,96432.18,312
+P0092,Sunglasses 2,Fashion,54938.76,285
+P0093,Sunglasses 3,Fashion,99680.62,243
+P0094,Sunglasses 4,Fashion,4929.11,180
+P0095,Sunglasses 5,Fashion,2282.53,311
+P0096,Sunglasses 6,Fashion,62890.75,415
+P0097,Sunglasses 7,Fashion,6748.45,434
+P0098,Sunglasses 8,Fashion,87884.32,485
+P0099,Chair 1,Home,91453.47,321
+P0100,Chair 2,Home,57403.82,482
+P0101,Chair 3,Home,31860.37,312
+P0102,Chair 4,Home,22678.5,145
+P0103,Chair 5,Home,30378.11,343
+P0104,Chair 6,Home,85290.39,428
+P0105,Chair 7,Home,23332.56,473
+P0106,Chair 8,Home,58166.59,212
+P0107,Table 1,Home,926.36,127
+P0108,Table 2,Home,4534.14,497
+P0109,Table 3,Home,82239.96,132
+P0110,Table 4,Home,39999.53,230
+P0111,Table 5,Home,5252.49,48
+P0112,Table 6,Home,80337.92,150
+P0113,Table 7,Home,53758.13,470
+P0114,Lamp 1,Home,94021.73,18
+P0115,Lamp 2,Home,50424.31,497
+P0116,Lamp 3,Home,73408.63,402
+P0117,Lamp 4,Home,64181.96,166
+P0118,Lamp 5,Home,77005.64,349
+P0119,Lamp 6,Home,5593.97,307
+P0120,Lamp 7,Home,21734.75,348
+P0121,Lamp 8,Home,55459.75,409
+P0122,Lamp 9,Home,12029.23,130
+P0123,Pillow 1,Home,56295.09,178
+P0124,Pillow 2,Home,18135.05,345
+P0125,Pillow 3,Home,20425.58,360
+P0126,Pillow 4,Home,43235.3,178
+P0127,Pillow 5,Home,64860.88,494
+P0128,Pillow 6,Home,48246.52,60
+P0129,Pillow 7,Home,13422.81,393
+P0130,Pillow 8,Home,73236.15,96
+P0131,Bedsheet 1,Home,29585.5,141
+P0132,Bedsheet 2,Home,41849.78,473
+P0133,Bedsheet 3,Home,42931.71,383
+P0134,Bedsheet 4,Home,16808.78,59
+P0135,Bedsheet 5,Home,76626.72,157
+P0136,Bedsheet 6,Home,31294.5,287
+P0137,Bedsheet 7,Home,69309.97,337
+P0138,Bedsheet 8,Home,7324.68,89
+P0139,Bedsheet 9,Home,87385.51,446
+P0140,Bedsheet 10,Home,93741.73,498
+P0141,Curtains 1,Home,7065.24,404
+P0142,Curtains 2,Home,79545.44,493
+P0143,Curtains 3,Home,27370.09,101
+P0144,Curtains 4,Home,11780.39,241
+P0145,Curtains 5,Home,34084.22,266
+P0146,Curtains 6,Home,76716.98,409
+P0147,Face Wash 1,Beauty,46797.07,72
+P0148,Face Wash 2,Beauty,48383.57,324
+P0149,Face Wash 3,Beauty,28190.91,52
+P0150,Face Wash 4,Beauty,35947.78,57
+P0151,Face Wash 5,Beauty,35647.4,208
+P0152,Face Wash 6,Beauty,80756.89,289
+P0153,Face Wash 7,Beauty,94521.6,381
+P0154,Face Wash 8,Beauty,2313.64,477
+P0155,Face Wash 9,Beauty,62224.03,416
+P0156,Shampoo 1,Beauty,99216.24,93
+P0157,Shampoo 2,Beauty,15008.39,92
+P0158,Shampoo 3,Beauty,52447.63,363
+P0159,Shampoo 4,Beauty,53713.52,255
+P0160,Shampoo 5,Beauty,99115.8,397
+P0161,Perfume 1,Beauty,35462.57,184
+P0162,Perfume 2,Beauty,85423.87,415
+P0163,Perfume 3,Beauty,75797.25,63
+P0164,Perfume 4,Beauty,80823.87,407
+P0165,Perfume 5,Beauty,81275.04,118
+P0166,Perfume 6,Beauty,17168.54,327
+P0167,Perfume 7,Beauty,63930.18,406
+P0168,Perfume 8,Beauty,58842.27,367
+P0169,Perfume 9,Beauty,7156.61,391
+P0170,Perfume 10,Beauty,23061.74,346
+P0171,Moisturizer 1,Beauty,55967.05,244
+P0172,Moisturizer 2,Beauty,39033.92,338
+P0173,Moisturizer 3,Beauty,37202.64,470
+P0174,Moisturizer 4,Beauty,4675.48,241
+P0175,Moisturizer 5,Beauty,19214.01,302
+P0176,Moisturizer 6,Beauty,35864.44,350
+P0177,Moisturizer 7,Beauty,93425.05,342
+P0178,Moisturizer 8,Beauty,34203.2,393
+P0179,Hair Oil 1,Beauty,96973.58,451
+P0180,Hair Oil 2,Beauty,46616.39,78
+P0181,Hair Oil 3,Beauty,84380.73,314
+P0182,Hair Oil 4,Beauty,52291.16,402
+P0183,Hair Oil 5,Beauty,12091.14,79
+P0184,Cricket Bat 1,Sports,49687.37,292
+P0185,Cricket Bat 2,Sports,72727.42,184
+P0186,Cricket Bat 3,Sports,12415.43,425
+P0187,Cricket Bat 4,Sports,3731.77,437
+P0188,Cricket Bat 5,Sports,63988.99,135
+P0189,Cricket Bat 6,Sports,31549.79,430
+P0190,Cricket Bat 7,Sports,42851.24,29
+P0191,Cricket Bat 8,Sports,85936.36,38
+P0192,Football 1,Sports,66649.95,80
+P0193,Football 2,Sports,69742.72,427
+P0194,Football 3,Sports,38268.33,88
+P0195,Football 4,Sports,28426.47,445
+P0196,Football 5,Sports,41496.97,48
+P0197,Football 6,Sports,97525.39,196
+P0198,Football 7,Sports,7973.61,167
+P0199,Tennis Racket 1,Sports,30332.1,21
+P0200,Tennis Racket 2,Sports,3101.7,155

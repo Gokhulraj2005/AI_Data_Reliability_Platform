@@ -1,0 +1,477 @@
+[
+    {
+        "incident_id": "INC-0001",
+        "issue": "Schema Drift",
+        "skill_name": "schema_repair",
+        "risk": "HIGH",
+        "decision": "APPROVED",
+        "timestamp": "2026-10-01T11:18:07.414777"
+    },
+    {
+        "incident_id": "INC-0001",
+        "issue": "Schema Drift",
+        "skill_name": "schema_repair",
+        "risk": "HIGH",
+        "decision": "REJECTED",
+        "timestamp": "2026-10-01T11:18:45.309358"
+    },
+    {
+        "incident_id": "INC-0001",
+        "skill_name": "schema_repair",
+        "issue": "Schema Drift",
+        "risk": "HIGH",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T11:49:41.163672"
+    },
+    {
+        "incident_id": "INC-0001",
+        "skill_name": "schema_repair",
+        "issue": "Schema Drift",
+        "risk": "HIGH",
+        "decision": "REJECTED",
+        "approved": false,
+        "timestamp": "2026-10-01T11:49:52.700107"
+    },
+    {
+        "incident_id": "INC-0001",
+        "skill_name": "schema_repair",
+        "issue": "Schema Drift",
+        "risk": "HIGH",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T11:50:46.839661"
+    },
+    {
+        "incident_id": "INC-0001",
+        "skill_name": "missing_value_repair",
+        "issue": "Missing Values",
+        "risk": "MEDIUM",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T11:50:49.170037"
+    },
+    {
+        "incident_id": "INC-0001",
+        "skill_name": "duplicate_cleanup",
+        "issue": "Duplicate Records",
+        "risk": "MEDIUM",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T11:50:50.872957"
+    },
+    {
+        "incident_id": "INC-0001",
+        "skill_name": "data_validation_repair",
+        "issue": "Invalid Values",
+        "risk": "HIGH",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T11:50:52.186417"
+    },
+    {
+        "incident_id": "INC-0001",
+        "skill_name": "schema_repair",
+        "issue": "Schema Drift",
+        "risk": "HIGH",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T11:51:15.513932"
+    },
+    {
+        "incident_id": "INC-0001",
+        "skill_name": "missing_value_repair",
+        "issue": "Missing Values",
+        "risk": "MEDIUM",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T11:51:16.679465"
+    },
+    {
+        "incident_id": "INC-0001",
+        "skill_name": "duplicate_cleanup",
+        "issue": "Duplicate Records",
+        "risk": "MEDIUM",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T11:51:17.467826"
+    },
+    {
+        "incident_id": "INC-0001",
+        "skill_name": "data_validation_repair",
+        "issue": "Invalid Values",
+        "risk": "HIGH",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T11:51:18.100838"
+    },
+    {
+        "incident_id": "INC-0001",
+        "skill_name": "schema_repair",
+        "issue": "Schema Drift",
+        "risk": "HIGH",
+        "decision": "REJECTED",
+        "approved": false,
+        "timestamp": "2026-10-01T11:51:44.135610"
+    },
+    {
+        "incident_id": "INC-0001",
+        "skill_name": "schema_repair",
+        "issue": "Schema Drift",
+        "risk": "HIGH",
+        "decision": "REJECTED",
+        "approved": false,
+        "timestamp": "2026-10-01T11:53:32.280131"
+    },
+    {
+        "incident_id": "INC-0001",
+        "skill_name": "schema_repair",
+        "issue": "Schema Drift",
+        "risk": "HIGH",
+        "decision": "REJECTED",
+        "approved": false,
+        "timestamp": "2026-10-01T11:56:54.530960"
+    },
+    {
+        "incident_id": "INC-0001",
+        "skill_name": "schema_repair",
+        "issue": "Schema Drift",
+        "risk": "HIGH",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T11:57:33.284339"
+    },
+    {
+        "incident_id": "INC-0001",
+        "skill_name": "missing_value_repair",
+        "issue": "Missing Values",
+        "risk": "MEDIUM",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T11:57:35.100652"
+    },
+    {
+        "incident_id": "INC-0001",
+        "skill_name": "duplicate_cleanup",
+        "issue": "Duplicate Records",
+        "risk": "MEDIUM",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T11:57:36.676905"
+    },
+    {
+        "incident_id": "INC-0001",
+        "skill_name": "data_validation_repair",
+        "issue": "Invalid Values",
+        "risk": "HIGH",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T11:57:38.039312"
+    },
+    {
+        "incident_id": "INC-0001",
+        "skill_name": "schema_repair",
+        "issue": "Schema Drift",
+        "risk": "HIGH",
+        "decision": "REJECTED",
+        "approved": false,
+        "timestamp": "2026-10-01T12:09:04.142505"
+    },
+    {
+        "incident_id": "INC-0001",
+        "skill_name": "schema_repair",
+        "issue": "Schema Drift",
+        "risk": "HIGH",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T12:09:18.361156"
+    },
+    {
+        "incident_id": "INC-0001",
+        "skill_name": "missing_value_repair",
+        "issue": "Missing Values",
+        "risk": "MEDIUM",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T12:09:32.695212"
+    },
+    {
+        "incident_id": "INC-0001",
+        "skill_name": "duplicate_cleanup",
+        "issue": "Duplicate Records",
+        "risk": "MEDIUM",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T12:09:34.501884"
+    },
+    {
+        "incident_id": "INC-0001",
+        "skill_name": "data_validation_repair",
+        "issue": "Invalid Values",
+        "risk": "HIGH",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T12:09:36.324763"
+    },
+    {
+        "incident_id": "INC-0001",
+        "skill_name": "schema_repair",
+        "issue": "Schema Drift",
+        "risk": "HIGH",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T18:17:26.403868"
+    },
+    {
+        "incident_id": "INC-0001",
+        "skill_name": "missing_value_repair",
+        "issue": "Missing Values",
+        "risk": "MEDIUM",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T18:18:15.186890"
+    },
+    {
+        "incident_id": "INC-0001",
+        "skill_name": "duplicate_cleanup",
+        "issue": "Duplicate Records",
+        "risk": "MEDIUM",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T18:18:58.934190"
+    },
+    {
+        "incident_id": "INC-0001",
+        "skill_name": "data_validation_repair",
+        "issue": "Invalid Values",
+        "risk": "HIGH",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T18:19:01.738506"
+    },
+    {
+        "incident_id": "INC-0002",
+        "skill_name": "schema_repair",
+        "issue": "Schema Drift",
+        "risk": "HIGH",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T18:36:22.444027"
+    },
+    {
+        "incident_id": "INC-0002",
+        "skill_name": "missing_value_repair",
+        "issue": "Missing Values",
+        "risk": "MEDIUM",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T18:36:23.434850"
+    },
+    {
+        "incident_id": "INC-0002",
+        "skill_name": "duplicate_cleanup",
+        "issue": "Duplicate Records",
+        "risk": "MEDIUM",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T18:36:24.557101"
+    },
+    {
+        "incident_id": "INC-0002",
+        "skill_name": "data_validation_repair",
+        "issue": "Invalid Values",
+        "risk": "HIGH",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T18:36:26.016850"
+    },
+    {
+        "incident_id": "INC-0002",
+        "skill_name": "schema_repair",
+        "issue": "Schema Drift",
+        "risk": "HIGH",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T18:38:28.862292"
+    },
+    {
+        "incident_id": "INC-0002",
+        "skill_name": "missing_value_repair",
+        "issue": "Missing Values",
+        "risk": "MEDIUM",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T18:38:29.781932"
+    },
+    {
+        "incident_id": "INC-0002",
+        "skill_name": "duplicate_cleanup",
+        "issue": "Duplicate Records",
+        "risk": "MEDIUM",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T18:38:30.534025"
+    },
+    {
+        "incident_id": "INC-0002",
+        "skill_name": "data_validation_repair",
+        "issue": "Invalid Values",
+        "risk": "HIGH",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T18:38:31.687737"
+    },
+    {
+        "incident_id": "INC-0003",
+        "skill_name": "schema_repair",
+        "issue": "Schema Drift",
+        "risk": "HIGH",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T19:04:51.026513"
+    },
+    {
+        "incident_id": "INC-0003",
+        "skill_name": "missing_value_repair",
+        "issue": "Missing Values",
+        "risk": "MEDIUM",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T19:04:51.653720"
+    },
+    {
+        "incident_id": "INC-0003",
+        "skill_name": "duplicate_cleanup",
+        "issue": "Duplicate Records",
+        "risk": "MEDIUM",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T19:04:52.285956"
+    },
+    {
+        "incident_id": "INC-0003",
+        "skill_name": "data_validation_repair",
+        "issue": "Invalid Values",
+        "risk": "HIGH",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T19:04:52.899505"
+    },
+    {
+        "incident_id": "INC-0004",
+        "skill_name": "schema_repair",
+        "issue": "Schema Drift",
+        "risk": "HIGH",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T19:11:29.458226"
+    },
+    {
+        "incident_id": "INC-0004",
+        "skill_name": "missing_value_repair",
+        "issue": "Missing Values",
+        "risk": "MEDIUM",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T19:11:30.155054"
+    },
+    {
+        "incident_id": "INC-0004",
+        "skill_name": "duplicate_cleanup",
+        "issue": "Duplicate Records",
+        "risk": "MEDIUM",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T19:11:30.758932"
+    },
+    {
+        "incident_id": "INC-0004",
+        "skill_name": "data_validation_repair",
+        "issue": "Invalid Values",
+        "risk": "HIGH",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T19:11:31.498518"
+    },
+    {
+        "incident_id": "INC-0004",
+        "skill_name": "schema_repair",
+        "issue": "Schema Drift",
+        "risk": "HIGH",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T19:13:31.751130"
+    },
+    {
+        "incident_id": "INC-0004",
+        "skill_name": "missing_value_repair",
+        "issue": "Missing Values",
+        "risk": "MEDIUM",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T19:13:32.874125"
+    },
+    {
+        "incident_id": "INC-0004",
+        "skill_name": "duplicate_cleanup",
+        "issue": "Duplicate Records",
+        "risk": "MEDIUM",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T19:13:33.831783"
+    },
+    {
+        "incident_id": "INC-0004",
+        "skill_name": "data_validation_repair",
+        "issue": "Invalid Values",
+        "risk": "HIGH",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T19:13:34.851016"
+    },
+    {
+        "incident_id": "INC-0005",
+        "skill_name": "schema_repair",
+        "issue": "Schema Drift",
+        "risk": "HIGH",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T19:17:39.100151"
+    },
+    {
+        "incident_id": "INC-0005",
+        "skill_name": "missing_value_repair",
+        "issue": "Missing Values",
+        "risk": "MEDIUM",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T19:17:39.942382"
+    },
+    {
+        "incident_id": "INC-0005",
+        "skill_name": "duplicate_cleanup",
+        "issue": "Duplicate Records",
+        "risk": "MEDIUM",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T19:17:40.780501"
+    },
+    {
+        "incident_id": "INC-0005",
+        "skill_name": "data_validation_repair",
+        "issue": "Invalid Values",
+        "risk": "HIGH",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T19:17:41.753131"
+    },
+    {
+        "incident_id": "INC-0005",
+        "skill_name": "anomaly_investigation",
+        "issue": "Data Anomaly",
+        "risk": "HIGH",
+        "decision": "APPROVED",
+        "approved": true,
+        "timestamp": "2026-10-01T19:17:43.044315"
+    }
+]

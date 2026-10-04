@@ -1,0 +1,297 @@
+[
+    {
+        "incident_id": "INC-0001",
+        "created_at": "2026-10-01T11:39:54.178424",
+        "type": "DATA_QUALITY",
+        "severity": "CRITICAL",
+        "status": "RESOLVED",
+        "quality_score": 10,
+        "issues": [
+            "Schema Drift",
+            "Missing Values",
+            "Duplicate Records",
+            "Invalid Values",
+            "Data Anomaly"
+        ],
+        "resolution": "Data recovery completed successfully and post-recovery validation passed.",
+        "updated_at": "2026-10-01T11:57:38.914514",
+        "validation_result": {
+            "status": "PASS",
+            "checks": {
+                "schema": true,
+                "missing_values": true,
+                "duplicates": true,
+                "invalid_values": true
+            },
+            "rows": 49989,
+            "duplicate_count": 0,
+            "missing_values": 0,
+            "invalid_quantity": 0,
+            "invalid_discount": 0
+        },
+        "rejected_skill": "schema_repair"
+    },
+    {
+        "incident_id": "INC-0002",
+        "created_at": "2026-10-01T18:35:13.319944",
+        "type": "DATA_QUALITY",
+        "severity": "CRITICAL",
+        "status": "RESOLVED",
+        "quality_score": 10,
+        "issues": [
+            "Schema Drift",
+            "Missing Values",
+            "Duplicate Records",
+            "Invalid Values",
+            "Data Anomaly"
+        ],
+        "resolution": "Data recovery completed successfully and post-recovery validation passed.",
+        "updated_at": "2026-10-01T18:38:32.272342",
+        "validation_result": {
+            "status": "PASS",
+            "checks": {
+                "schema": true,
+                "missing_values": true,
+                "duplicates": true,
+                "invalid_values": true
+            },
+            "rows": 49989,
+            "duplicate_count": 0,
+            "missing_values": 0,
+            "invalid_quantity": 0,
+            "invalid_discount": 0
+        }
+    },
+    {
+        "incident_id": "INC-0003",
+        "created_at": "2026-10-01T19:02:59.426087",
+        "type": "DATA_QUALITY",
+        "severity": "CRITICAL",
+        "status": "RESOLVED",
+        "quality_score": 10,
+        "issues": [
+            "Schema Drift",
+            "Missing Values",
+            "Duplicate Records",
+            "Invalid Values",
+            "Data Anomaly"
+        ],
+        "resolution": "Data recovery completed successfully and post-recovery validation passed.",
+        "updated_at": "2026-10-01T19:04:53.256938",
+        "validation_result": {
+            "status": "PASS",
+            "checks": {
+                "schema": true,
+                "missing_values": true,
+                "duplicates": true,
+                "invalid_values": true
+            },
+            "rows": 49989,
+            "duplicate_count": 0,
+            "missing_values": 0,
+            "invalid_quantity": 0,
+            "invalid_discount": 0
+        }
+    },
+    {
+        "incident_id": "INC-0004",
+        "created_at": "2026-10-01T19:10:52.977611",
+        "type": "DATA_QUALITY",
+        "severity": "CRITICAL",
+        "status": "RESOLVED",
+        "quality_score": 10,
+        "issues": [
+            "Schema Drift",
+            "Missing Values",
+            "Duplicate Records",
+            "Invalid Values",
+            "Data Anomaly"
+        ],
+        "resolution": "Data recovery completed successfully and post-recovery validation passed.",
+        "updated_at": "2026-10-01T19:13:35.223149",
+        "validation_result": {
+            "status": "PASS",
+            "checks": {
+                "schema": true,
+                "missing_values": true,
+                "duplicates": true,
+                "invalid_values": true
+            },
+            "rows": 49989,
+            "duplicate_count": 0,
+            "missing_values": 0,
+            "invalid_quantity": 0,
+            "invalid_discount": 0
+        },
+        "ai_decision": {
+            "investigation": {
+                "incident_id": "INC-0004",
+                "severity": "CRITICAL",
+                "root_cause_categories": [
+                    "Schema Drift",
+                    "Missing Values",
+                    "Duplicate Records",
+                    "Invalid Values",
+                    "Data Anomaly"
+                ],
+                "findings": [
+                    "The incoming dataset schema differs from the expected schema.",
+                    "Required fields contain missing values.",
+                    "Duplicate records were detected in the dataset.",
+                    "One or more fields contain values that violate business validation rules.",
+                    "Extreme values were detected in the dataset."
+                ],
+                "recommendations": [
+                    "Compare the incoming columns with the expected schema and restore renamed or missing columns.",
+                    "Identify affected columns and apply an appropriate missing-value handling strategy.",
+                    "Identify duplicate records using the order identifier and remove duplicate entries.",
+                    "Validate quantity, discount, and price values against predefined business rules.",
+                    "Investigate anomalous values and compare them with historical or expected ranges."
+                ],
+                "recommended_action": "REQUIRES_HUMAN_APPROVAL"
+            },
+            "llm_analysis": "\nROOT CAUSE:\nThe incident was caused by data quality issues detected in the\npipeline: Schema Drift, Missing Values, Duplicate Records, Invalid Values, Data Anomaly.\n\nEVIDENCE:\nThe incident manager detected the listed data quality problems\nduring pipeline validation.\n\nRECOMMENDED RECOVERY ACTION:\nUse the available recovery skills to repair the detected issues,\nfollowed by post-recovery validation.\n\nRISK LEVEL:\nHIGH\n\nHUMAN APPROVAL:\nYES. Recovery actions should be approved before execution.\n",
+            "selected_skills": [
+                "schema_repair",
+                "missing_value_repair",
+                "duplicate_cleanup",
+                "data_validation_repair",
+                "anomaly_investigation"
+            ]
+        },
+        "recovery_audit": {
+            "status": "SUCCESS",
+            "executed_skills": [
+                "schema_repair",
+                "missing_value_repair",
+                "duplicate_cleanup",
+                "data_validation_repair",
+                "anomaly_investigation"
+            ],
+            "recovered_file": "data/processed/orders_recovered.csv"
+        }
+    },
+    {
+        "incident_id": "INC-0005",
+        "created_at": "2026-10-01T19:17:14.701258",
+        "type": "DATA_QUALITY",
+        "severity": "CRITICAL",
+        "status": "RESOLVED",
+        "quality_score": 10,
+        "issues": [
+            "Schema Drift",
+            "Missing Values",
+            "Duplicate Records",
+            "Invalid Values",
+            "Data Anomaly"
+        ],
+        "resolution": "Data recovery completed successfully and post-recovery validation passed.",
+        "updated_at": "2026-10-01T19:17:43.393629",
+        "validation_result": {
+            "status": "PASS",
+            "checks": {
+                "schema": true,
+                "missing_values": true,
+                "duplicates": true,
+                "invalid_values": true
+            },
+            "rows": 49989,
+            "duplicate_count": 0,
+            "missing_values": 0,
+            "invalid_quantity": 0,
+            "invalid_discount": 0
+        },
+        "ai_decision": {
+            "investigation": {
+                "incident_id": "INC-0005",
+                "severity": "CRITICAL",
+                "root_cause_categories": [
+                    "Schema Drift",
+                    "Missing Values",
+                    "Duplicate Records",
+                    "Invalid Values",
+                    "Data Anomaly"
+                ],
+                "findings": [
+                    "The incoming dataset schema differs from the expected schema.",
+                    "Required fields contain missing values.",
+                    "Duplicate records were detected in the dataset.",
+                    "One or more fields contain values that violate business validation rules.",
+                    "Extreme values were detected in the dataset."
+                ],
+                "recommendations": [
+                    "Compare the incoming columns with the expected schema and restore renamed or missing columns.",
+                    "Identify affected columns and apply an appropriate missing-value handling strategy.",
+                    "Identify duplicate records using the order identifier and remove duplicate entries.",
+                    "Validate quantity, discount, and price values against predefined business rules.",
+                    "Investigate anomalous values and compare them with historical or expected ranges."
+                ],
+                "recommended_action": "REQUIRES_HUMAN_APPROVAL"
+            },
+            "llm_analysis": "\nROOT CAUSE:\nThe incident was caused by data quality issues detected in the\npipeline: Schema Drift, Missing Values, Duplicate Records, Invalid Values, Data Anomaly.\n\nEVIDENCE:\nThe incident manager detected the listed data quality problems\nduring pipeline validation.\n\nRECOMMENDED RECOVERY ACTION:\nUse the available recovery skills to repair the detected issues,\nfollowed by post-recovery validation.\n\nRISK LEVEL:\nHIGH\n\nHUMAN APPROVAL:\nYES. Recovery actions should be approved before execution.\n",
+            "selected_skills": [
+                "schema_repair",
+                "missing_value_repair",
+                "duplicate_cleanup",
+                "data_validation_repair",
+                "anomaly_investigation"
+            ]
+        },
+        "recovery_audit": {
+            "status": "SUCCESS",
+            "executed_skills": [
+                "schema_repair",
+                "missing_value_repair",
+                "duplicate_cleanup",
+                "data_validation_repair",
+                "anomaly_investigation"
+            ],
+            "recovered_file": "data/processed/orders_recovered.csv"
+        }
+    },
+    {
+        "incident_id": "INC-0006",
+        "created_at": "2026-10-01T19:25:22.830918",
+        "type": "DATA_QUALITY",
+        "severity": "CRITICAL",
+        "status": "OPEN",
+        "quality_score": 10,
+        "issues": [
+            "Schema Drift",
+            "Missing Values",
+            "Duplicate Records",
+            "Invalid Values",
+            "Data Anomaly"
+        ]
+    },
+    {
+        "incident_id": "INC-0007",
+        "created_at": "2026-10-01T19:25:51.338596",
+        "type": "DATA_QUALITY",
+        "severity": "CRITICAL",
+        "status": "OPEN",
+        "quality_score": 10,
+        "issues": [
+            "Schema Drift",
+            "Missing Values",
+            "Duplicate Records",
+            "Invalid Values",
+            "Data Anomaly"
+        ]
+    },
+    {
+        "incident_id": "INC-0008",
+        "created_at": "2026-10-01T19:26:32.110577",
+        "type": "DATA_QUALITY",
+        "severity": "CRITICAL",
+        "status": "OPEN",
+        "quality_score": 10,
+        "issues": [
+            "Schema Drift",
+            "Missing Values",
+            "Duplicate Records",
+            "Invalid Values",
+            "Data Anomaly"
+        ]
+    }
+]
